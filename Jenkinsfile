@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git credentialsId: 'github_pat', 
                     url: 'https://github.com/Massara28/ecommerce.git', 
-                    branch: 'master'
+                    branch: 'main'
             }
         }
 

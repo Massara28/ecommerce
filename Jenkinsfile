@@ -29,7 +29,7 @@ pipeline {
 
         stage('Archive Artifact') {
             steps {
-                archiveArtifacts artifacts: 'target/*.war', onlyIfSuccessful: true
+                archiveArtifacts artifacts: 'target/*.jar', onlyIfSuccessful: true
             }
         }
     }
